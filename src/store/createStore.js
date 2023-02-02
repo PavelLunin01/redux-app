@@ -1,6 +1,8 @@
+/*
 export const createStore = (reducer, inState) => {
   let state = inState;
   let listeners = [];
+
   function getState() {
     return state;
   };
@@ -16,4 +18,4 @@ export const createStore = (reducer, inState) => {
     listeners.push(listener);
   };
   return {getState, dispatch, subscribe}
-};
+};*/
